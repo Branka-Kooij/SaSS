@@ -1,0 +1,11 @@
+
+}
+@mixin textparagraph (){
+
+    max-width: 700px;
+    text-align: center;
+    padding: 20px;
+}
+.wrapper_text-about ,.hero-text {
+    @include textparagraph;
+}
